@@ -1,5 +1,6 @@
 version: 3
 
-tasks: 
+tasks:
+  streamer-start: 'wgo -file=.go go run ./services/video-streamer'
+  streamer-help: go run ./services/video-streamer -h
 
-  run-service-video-streamer: go run ./services/video-streamer

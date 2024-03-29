@@ -2,7 +2,10 @@ module Flixtube
 
 go 1.22.0
 
-require github.com/charmbracelet/log v0.4.0
+require (
+	github.com/ardanlabs/conf/v3 v3.1.7
+	github.com/charmbracelet/log v0.4.0
+)
 
 require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
