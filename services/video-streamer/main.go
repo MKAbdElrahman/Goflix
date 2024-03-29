@@ -4,7 +4,6 @@ import (
 	"errors"
 	"fmt"
 	"net/http"
-	"os"
 
 	"github.com/charmbracelet/log"
 
@@ -34,8 +33,7 @@ func main() {
 			fmt.Println(help)
 			return
 		}
-		log.Error(err.Error())
-		os.Exit(1)
+		log.Fatal(err.Error())
 	}
 
 	// ROUTER

@@ -1,4 +1,4 @@
-module Flixtube
+module Goflix
 
 go 1.22.0
 
